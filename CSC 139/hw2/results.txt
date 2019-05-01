@@ -1,0 +1,43 @@
+Script started on Fri 17 Mar 2017 04:47:53 PM PDT
+Note: $DISPLAY is set to :9.0 for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[georgeb@nova hw2]> cd csc139"georgeb's Home"ls[K./MTFindMin 1000 4 2-1g++ -O3 MTFindMin.c -lpthread -o MTFindMin
+[georgeb@nova hw2]> g++ -O3 MTFindMin.c -lpthread -o MTFindMin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd csc139[K"georgeb's Home"ls[K./MTFindMin 1000 4 2-1g++ -O3 MTFindMin.c -lpthread -o MTFindMin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21P./MTFindMin 1000 4 -1[1P2g++ -O3 MTFindMin.c -lpthread -o MTFindMin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22P./MTFindMin 1000 4 2-1g++ -O3 MTFindMin.c -lpthread -o MTFindMin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21P./MTFindMin 1000 4 -1[1P2g++ -O3 MTFindMin.c -lpthread -o MTFindMin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22P./MTFindMin 1000 4 2-1g++ -O3 MTFindMin.c -lpthread -o MTFindMin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21P./MTFindMin 1000 4 -1[1P2g++ -O3 MTFindMin.c -lpthread -o MTFindMin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22P./MTFindMin 1000 4 2-1g++ -O3 MTFindMin.c -lpthread -o MTFindMin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21P./MTFindMin 1000 4 -1[1P2ls[Kcd "georgeb's Home"[10Pcsc139g++ -O3 MTFindMin.c -lpthread -o MTFindMin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kg++ -O3 MTFindMin.c -lpthread -o MTFindMin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd csc139[Kg++ -O3 MTFindMin.c -lpthread -o MTFindMin[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd csc139[K"georgeb's Home"ls[K./MTFindMin 1000 4 2-1[1P2[K[K[K[K00000 2 50000001
+Sequential search completed in 25 ms. Min = 0
+Threaded FindMin with parent waiting for all children completed in 43 ms. Min = 0
+Threaded FindMin with parent continually checking on children completed in 43 ms. Min = 0
+Threaded FindMin with parent waiting on a semaphore completed in 0 ms. Min = 0
+[georgeb@nova hw2]> ./MTFindMin 100000000 2 50000001[C[C[C[C[1P1[1P00000170000015000001[1P 750000014 75000001
+Sequential search completed in 38 ms. Min = 0
+Threaded FindMin with parent waiting for all children completed in 23 ms. Min = 0
+Threaded FindMin with parent continually checking on children completed in 22 ms. Min = 0
+Threaded FindMin with parent waiting on a semaphore completed in 1 ms. Min = 0
+[georgeb@nova hw2]> ./MTFindMin 100000000 4 750000012 500000014 75000001[C[1P000001[1P00000180000018000001[1P 880000018 88000001
+Sequential search completed in 44 ms. Min = 0
+Threaded FindMin with parent waiting for all children completed in 22 ms. Min = 0
+Threaded FindMin with parent continually checking on children completed in 23 ms. Min = 0
+Threaded FindMin with parent waiting on a semaphore completed in 1 ms. Min = 0
+[georgeb@nova hw2]> ./MTFindMin 100000000 8 88000001[K[K[K[K[K[K[K[K-[C1[1P -12 -1
+Sequential search completed in 50 ms. Min = 1
+Threaded FindMin with parent waiting for all children completed in 44 ms. Min = 1
+Threaded FindMin with parent continually checking on children completed in 44 ms. Min = 1
+Threaded FindMin with parent waiting on a semaphore completed in 0 ms. Min = 1
+[georgeb@nova hw2]> ./MTFindMin 100000000 2 -1[1P -14 -1
+Sequential search completed in 50 ms. Min = 1
+Threaded FindMin with parent waiting for all children completed in 24 ms. Min = 1
+Threaded FindMin with parent continually checking on children completed in 32 ms. Min = 1
+Threaded FindMin with parent waiting on a semaphore completed in 1 ms. Min = 1
+[georgeb@nova hw2]> ./MTFindMin 100000000 4 -12[C[C[C4[C[C[C[1P -18 -1
+Sequential search completed in 51 ms. Min = 1
+Threaded FindMin with parent waiting for all children completed in 24 ms. Min = 1
+Threaded FindMin with parent continually checking on children completed in 23 ms. Min = 1
+Threaded FindMin with parent waiting on a semaphore completed in 0 ms. Min = 1
+[georgeb@nova hw2]> exit
+
+Script done on Fri 17 Mar 2017 04:49:31 PM PDT

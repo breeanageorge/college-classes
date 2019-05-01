@@ -1,0 +1,250 @@
+Script started on Thu 25 Jan 2018 10:09:03 PM PST
+[georgeb@gacrux:15]> exitflash MyOS.dli[22Gmake[Kspede-mkmf -q[22Gvi --cmd "set number" sample.c
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"sample.c" 14L, 232C[>c[1;1H[33m  1 [m[34m/* sample.c - Sample Main for SPEDE*/[m
+[33m  2 
+  3 [m[35m#include [m[31m<spede/stdio.h>[m
+[33m  4 [m[35m#include [m[31m<spede/flames.h>[m
+[33m  5 
+  6 [m[32mint[m main([32mvoid[m)
+[33m  7 [m{
+[33m  8 [m[8C[32mlong[m i;
+[33m  9 
+ 10 [m[8Ci = [31m128[m;
+[33m 11 [m[8Cprintf([31m"[m[35m%d[m[31m Hello world [m[35m%d[m[31m [m[35m\n[m[31mECS"[m, i, [31m2[m*i);
+[33m 12 [m[8Ccons_printf([31m"--> Hello world <--[m[35m\n[m[31mCPE/CSC"[m);
+[33m 13 [8Creturn[m [31m0[m;
+[33m 14 [m}
+[1m[34m~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H1,1[11CAll[1;5H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;63H2,0-1[2;5H[?12l[?25h[?25l[24;63H3,1  [3;5H[?12l[?25h[?25l[24;63H4[4;5H[?12l[?25h[?25l[24;63H5,0-1[5;5H[?12l[?25h[?25l[24;63H6,1  [6;5H[?12l[?25h[?25l[7;5H[46m{[14;5H}[m[24;63H7[7;5H[?12l[?25h[?25l{[14;5H}[24;63H8,1-8[8;12H[?12l[?25h[?25l[24;63H9[9;12H[?12l[?25h[?25l[24;63H10,1-8[10;12H[?12l[?25h[?25l[24;64H1[11;12H[?12l[?25h[?25l[24;64H2[12;12H[?12l[?25h[?25l[24;64H3[13;12H[?12l[?25h[?25l[7;5H[46m{[14;5H}[m[24;64H4,1  [14;5H[?12l[?25h[?25l[24;1H[K[24;1H:[?12l[?25hx[?25l[?12l[?25h[?25l[24;1H[K[24;1H[?1l>[?12l[?25h[?1049l[georgeb@gacrux:16]> make
+make: Nothing to be done for `all'.
+[georgeb@gacrux:17]> makevi --cmd "set number" sample.c[22Gexit[Kflash MyOS.dli[22Gspede-mkmf -q[K
+(spede-mkmf $Revision: 1.2 $/1)
+
+Found your ./Makefile
+. done
+[georgeb@gacrux:18]> make
+link386 -g  -o MyOS.dli sample.o
+(link-386.sh $Revision: 1.14 $ )
+Done linking "MyOS.dli" (with GDB enabled) at 1m.
+[georgeb@gacrux:19]> flash MyOS.dli
+unable to open config file, using defaults....
+
+>>>>>Welcome to the Flames Shell (FlaSh)  $Revision: 1.3 $ (SC/BJW)<<<<<<
+Type ? for help
+
+FLASH % d
+File type is 'ELF'
+Total blocks to download:  0x6b  (128 bytes each)
+
+?Now have attention of monitor...No of Blocks Downloaded : 0x2 No of Blocks Downloaded : 0x3 No of Blocks Downloaded : 0x4 No of Blocks Downloaded : 0x5 No of Blocks Downloaded : 0x6 No of Blocks Downloaded : 0x7 No of Blocks Downloaded : 0x8 No of Blocks Downloaded : 0x9 No of Blocks Downloaded : 0xa No of Blocks Downloaded : 0xb No of Blocks Downloaded : 0xc No of Blocks Downloaded : 0xd No of Blocks Downloaded : 0xe No of Blocks Downloaded : 0xf No of Blocks Downloaded : 0x10 No of Blocks Downloaded : 0x11 No of Blocks Downloaded : 0x12 No of Blocks Downloaded : 0x13 No of Blocks Downloaded : 0x14 No of Blocks Downloaded : 0x15 No of Blocks Downloaded : 0x16 No of Blocks Downloaded : 0x17 No of Blocks Downloaded : 0x18 No of Blocks Downloaded : 0x19 No of Blocks Downloaded : 0x1a No of Blocks Downloaded : 0x1b No of Blocks Downloaded : 0x1c No of Blocks Downloaded : 0x1d No of Blocks Downloaded : 0x1e No of Blocks Downloaded : 0x1f No of Blocks Downloaded : 0x20 No of Blocks Downloaded : 0x21 No of Blocks Downloaded : 0x22 No of Blocks Downloaded : 0x23 No of Blocks Downloaded : 0x24 No of Blocks Downloaded : 0x25 No of Blocks Downloaded : 0x26 No of Blocks Downloaded : 0x27 No of Blocks Downloaded : 0x28 No of Blocks Downloaded : 0x29 No of Blocks Downloaded : 0x2a No of Blocks Downloaded : 0x2b No of Blocks Downloaded : 0x2c No of Blocks Downloaded : 0x2d No of Blocks Downloaded : 0x2e No of Blocks Downloaded : 0x2f No of Blocks Downloaded : 0x30 No of Blocks Downloaded : 0x31 No of Blocks Downloaded : 0x32 No of Blocks Downloaded : 0x33 No of Blocks Downloaded : 0x34 No of Blocks Downloaded : 0x35 No of Blocks Downloaded : 0x36 No of Blocks Downloaded : 0x37 No of Blocks Downloaded : 0x38 No of Blocks Downloaded : 0x39 No of Blocks Downloaded : 0x3a No of Blocks Downloaded : 0x3b No of Blocks Downloaded : 0x3c No of Blocks Downloaded : 0x3d No of Blocks Downloaded : 0x3e No of Blocks Downloaded : 0x3f No of Blocks Downloaded : 0x40 No of Blocks Downloaded : 0x41 No of Blocks Downloaded : 0x42 No of Blocks Downloaded : 0x43 No of Blocks Downloaded : 0x44 No of Blocks Downloaded : 0x45 No of Blocks Downloaded : 0x46 No of Blocks Downloaded : 0x47 No of Blocks Downloaded : 0x48 No of Blocks Downloaded : 0x49 No of Blocks Downloaded : 0x4a No of Blocks Downloaded : 0x4b No of Blocks Downloaded : 0x4c No of Blocks Downloaded : 0x4d No of Blocks Downloaded : 0x4e No of Blocks Downloaded : 0x4f No of Blocks Downloaded : 0x50 No of Blocks Downloaded : 0x51 No of Blocks Downloaded : 0x52 No of Blocks Downloaded : 0x53 No of Blocks Downloaded : 0x54 No of Blocks Downloaded : 0x55 No of Blocks Downloaded : 0x56 No of Blocks Downloaded : 0x57 No of Blocks Downloaded : 0x58 No of Blocks Downloaded : 0x59 No of Blocks Downloaded : 0x5a No of Blocks Downloaded : 0x5b No of Blocks Downloaded : 0x5c No of Blocks Downloaded : 0x5d No of Blocks Downloaded : 0x5e No of Blocks Downloaded : 0x5f No of Blocks Downloaded : 0x60 No of Blocks Downloaded : 0x61 No of Blocks Downloaded : 0x62 No of Blocks Downloaded : 0x63 No of Blocks Downloaded : 0x64 No of Blocks Downloaded : 0x65 No of Blocks Downloaded : 0x66 No of Blocks Downloaded : 0x67 No of Blocks Downloaded : 0x68 No of Blocks Downloaded : 0x69 No of Blocks Downloaded : 0x6a No of Blocks Downloaded : 0x6b No of Blocks Downloaded : 0x6c Load Successful ; Code loaded at 0x0x101000 (1720 bytes/sec)
+
+FLASH % g
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux (7.2-64.el6_5.2)
+Copyright (C) 2010 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /gaia/class/student/georgeb/csc159/lab2/MyOS.dli...expanding to full symbols...done.
+0x00102581 in breakpoint ()
+Temporary breakpoint 1 at 0x1011ae: file sample.c, line 16.
+Really redefine built-in command "run"? (y or n) [answered Y; input not from terminal]
+
+Temporary breakpoint 1, main () at sample.c:16
+Line number 16 out of range; sample.c has 14 lines.
+GDB386> b 10
+Breakpoint 2 at 0x10119d: file sample.c, line 10.
+GDB386> c
+Continuing.
+111 Hello world 222 
+ECS
+Breakpoint 2, DisplayMsg (j=0x6f) at sample.c:10
+10		i = 128;
+GDB386> c
+Continuing.
+112 Hello world 224 
+ECS
+Breakpoint 2, DisplayMsg (j=0x70) at sample.c:10
+10		i = 128;
+GDB386> c
+Continuing.
+113 Hello world 226 
+ECS
+Breakpoint 2, DisplayMsg (j=0x71) at sample.c:10
+10		i = 128;
+GDB386> c
+Continuing.
+114 Hello world 228 
+ECS
+Breakpoint 2, DisplayMsg (j=0x72) at sample.c:10
+10		i = 128;
+GDB386> c
+Continuing.
+115 Hello world 230 
+ECS
+Breakpoint 2, DisplayMsg (j=0x73) at sample.c:10
+10		i = 128;
+GDB386> c
+Continuing.
+
+Program exited normally.
+GDB386> c[Kq
+I m in gdbMyOS.dli debug file
+FLASH % q
+
+[georgeb@gacrux:20]> vi[K[Kflash MyOS.dli[22Gmake[Kspede-mkmf -q[22Gvi --cmd "set number" sample.c
+[?1049h[?1h=[2;1H▽[6n[2;1H  [1;1H[1;24r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[24;1H"sample.c" 14L, 232C[>c[1;1H[33m  1 [m[34m/* sample.c - Sample Main for SPEDE*/[m
+[33m  2 
+  3 [m[35m#include [m[31m<spede/stdio.h>[m
+[33m  4 [m[35m#include [m[31m<spede/flames.h>[m
+[33m  5 
+  6 [m[32mint[m main([32mvoid[m)
+[33m  7 [m[46m{[m
+[33m  8 [m[8C[32mlong[m i;
+[33m  9 
+ 10 [m[8Ci = [31m128[m;
+[33m 11 [m[8Cprintf([31m"[m[35m%d[m[31m Hello world [m[35m%d[m[31m [m[35m\n[m[31mECS"[m, i, [31m2[m*i);
+[33m 12 [m[8Ccons_printf([31m"--> Hello world <--[m[35m\n[m[31mCPE/CSC"[m);
+[33m 13 [8Creturn[m [31m0[m;
+[33m 14 [m[46m}[m
+[1m[34m~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H14,1[10CAll[14;5H[?12l[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?25l[24;1H[1m-- INSERT --[m[24;13H[K[24;63H14,1[10CAll[14;5H[?12l[?25h[?25l[24;66H2[14;6H[?12l[?25h[?25l[14;5H[K[7;5H{[24;66H1[14;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;64H3,11-18[13;22H[?12l[?25h[?25l[13;21H[K[24;67H0-17[13;21H[?12l[?25h[?25l[13;20H[K[24;66H9-16 [13;20H[?12l[?25h[?25l[24;66H8-15[13;19H[?12l[?25h[?25lretur[13;18H[K[24;66H7-14[13;18H[?12l[?25h[?25l[13;17H[K[24;66H6-13[13;17H[?12l[?25h[?25l[13;16H[K[24;66H5-12[13;16H[?12l[?25h[?25l[13;15H[K[24;66H4-11[13;15H[?12l[?25h[?25l[13;14H[K[24;66H3-10[13;14H[?12l[?25h[?25l[13;13H[K[24;66H2-9 [13;13H[?12l[?25h[?25l[24;66H1  [13;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;64H2,46-53[12;57H[?12l[?25h[?25l[12;56H[K[12;24H[46m([30C)[m[24;67H5-52[12;56H[?12l[?25h[?25l[12;55H[K[12;24H([24;67H4-51[12;55H[?12l[?25h[?25l[12;54H[K[24;67H3-50[12;54H[?12l[?25h[?25l[12;53H[K[24;67H2-49[12;53H[?12l[?25h[?25l[12;52H[K[24;67H1-48[12;52H[?12l[?25h[?25l[12;51H[K[24;67H0-47[12;51H[?12l[?25h[?25l[12;50H[K[24;66H39-46[12;50H[?12l[?25h[?25l[12;49H[K[24;67H8-45[12;49H[?12l[?25h[?25l[12;48H[K[24;67H7-44[12;48H[?12l[?25h[?25l[12;47H[K[24;67H6-43[12;47H[?12l[?25h[?25l[12;46H[K[24;67H5-42[12;46H[?12l[?25h[?25l[12;45H[K[24;67H4-41[12;45H[?12l[?25h[?25l[12;44H[K[24;67H3-40[12;44H[?12l[?25h[?25l[12;43H[K[24;67H2-39[12;43H[?12l[?25h[?25l[12;42H[K[24;67H1-38[12;42H[?12l[?25h[?25l[12;41H[K[24;67H0-37[12;41H[?12l[?25h[?25l[12;40H[K[24;66H29-36[12;40H[?12l[?25h[?25l[12;39H[K[24;67H8-35[12;39H[?12l[?25h[?25l[12;38H[K[24;67H7-34[12;38H[?12l[?25h[?25l[12;37H[K[24;67H6-33[12;37H[?12l[?25h[?25l[12;36H[K[24;67H5-32[12;36H[?12l[?25h[?25l[12;35H[K[24;67H4-31[12;35H[?12l[?25h[?25l[12;34H[K[24;67H3-30[12;34H[?12l[?25h[?25l[12;33H[K[24;67H2-29[12;33H[?12l[?25h[?25l[12;32H[K[24;67H1-28[12;32H[?12l[?25h[?25l[12;31H[K[24;67H0-27[12;31H[?12l[?25h[?25l[12;30H[K[24;66H19-26[12;30H[?12l[?25h[?25l[12;29H[K[24;67H8-25[12;29H[?12l[?25h[?25l[12;28H[K[24;67H7-24[12;28H[?12l[?25h[?25l[12;27H[K[24;67H6-23[12;27H[?12l[?25h[?25l[12;26H[K[24;67H5-22[12;26H[?12l[?25h[?25l[12;25H[K[24;67H4-21[12;25H[?12l[?25h[?25l[12;24H[K[24;67H3-20[12;24H[?12l[?25h[?25l[12;23H[K[24;67H2-19[12;23H[?12l[?25h[?25l[12;22H[K[24;67H1-18[12;22H[?12l[?25h[?25l[12;21H[K[24;67H0-17[12;21H[?12l[?25h[?25l[12;20H[K[24;66H9-16 [12;20H[?12l[?25h[?25l[12;19H[K[24;66H8-15[12;19H[?12l[?25h[?25l[12;18H[K[24;66H7-14[12;18H[?12l[?25h[?25l[12;17H[K[24;66H6-13[12;17H[?12l[?25h[?25l[12;16H[K[24;66H5-12[12;16H[?12l[?25h[?25l[12;15H[K[24;66H4-11[12;15H[?12l[?25h[?25l[12;14H[K[24;66H3-10[12;14H[?12l[?25h[?25l[12;13H[K[24;66H2-9 [12;13H[?12l[?25h[?25l[24;66H1  [12;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;64H1,44-51[11;55H[?12l[?25h[?25l[11;54H[K[11;19H[46m([33C)[m[24;67H3-50[11;54H[?12l[?25h[?25l[11;53H[K[11;19H([24;67H2-49[11;53H[?12l[?25h[?25l[11;52H[K[24;67H1-48[11;52H[?12l[?25h[?25l[11;51H[K[24;67H0-47[11;51H[?12l[?25h[?25l[11;50H[K[24;66H39-46[11;50H[?12l[?25h[?25l[24;67H8-45[11;49H[?12l[?25h[?25l[11;48H[K[24;67H7-44[11;48H[?12l[?25h[?25l[11;47H[K[24;67H6-43[11;47H[?12l[?25h[?25l[24;67H5-42[11;46H[?12l[?25h[?25l[11;45H[K[24;67H4-41[11;45H[?12l[?25h[?25l[11;44H[K[24;67H3-40[11;44H[?12l[?25h[?25l[11;43H[K[24;67H2-39[11;43H[?12l[?25h[?25l[11;42H[K[24;67H1-38[11;42H[?12l[?25h[?25l[11;41H[K[24;67H0-37[11;41H[?12l[?25h[?25l[11;40H[K[24;66H29-36[11;40H[?12l[?25h[?25l[11;39H[K[24;67H8-35[11;39H[?12l[?25h[?25l[11;38H[K[24;67H7-34[11;38H[?12l[?25h[?25l[31m%[m[11;37H[K[24;67H6-33[11;37H[?12l[?25h[?25l[11;36H[K[24;67H5-32[11;36H[?12l[?25h[?25l[11;35H[K[24;67H4-31[11;35H[?12l[?25h[?25l[11;34H[K[24;67H3-30[11;34H[?12l[?25h[?25l[11;33H[K[24;67H2-29[11;33H[?12l[?25h[?25l[11;32H[K[24;67H1-28[11;32H[?12l[?25h[?25l[11;31H[K[24;67H0-27[11;31H[?12l[?25h[?25l[11;30H[K[24;66H19-26[11;30H[?12l[?25h[?25l[11;29H[K[24;67H8-25[11;29H[?12l[?25h[?25l[11;28H[K[24;67H7-24[11;28H[?12l[?25h[?25l[11;27H[K[24;67H6-23[11;27H[?12l[?25h[?25l[11;26H[K[24;67H5-22[11;26H[?12l[?25h[?25l[11;25H[K[24;67H4-21[11;25H[?12l[?25h[?25l[11;24H[K[24;67H3-20[11;24H[?12l[?25h[?25l[11;23H[K[24;67H2-19[11;23H[?12l[?25h[?25l[31m%[m[11;22H[K[24;67H1-18[11;22H[?12l[?25h[?25l[11;21H[K[24;67H0-17[11;21H[?12l[?25h[?25l[11;20H[K[24;66H9-16 [11;20H[?12l[?25h[?25l[11;19H[K[24;66H8-15[11;19H[?12l[?25h[?25l[11;18H[K[24;66H7-14[11;18H[?12l[?25h[?25l[11;17H[K[24;66H6-13[11;17H[?12l[?25h[?25l[11;16H[K[24;66H5-12[11;16H[?12l[?25h[?25l[11;15H[K[24;66H4-11[11;15H[?12l[?25h[?25l[11;14H[K[24;66H3-10[11;14H[?12l[?25h[?25l[11;13H[K[24;66H2-9 [11;13H[?12l[?25h[?25l[24;66H1  [11;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;64H0,10-17[10;21H[?12l[?25h[?25l[10;20H[K[24;66H9-16 [10;20H[?12l[?25h[?25l[10;19H[K[24;66H8-15[10;19H[?12l[?25h[?25l[10;18H[K[24;66H7-14[10;18H[?12l[?25h[?25l[10;17H[K[24;66H6-13[10;17H[?12l[?25h[?25l[24;66H5-12[10;16H[?12l[?25h[?25l[10;15H[K[24;66H4-11[10;15H[?12l[?25h[?25l[24;66H3-10[10;14H[?12l[?25h[?25l[10;13H[K[24;66H2-9 [10;13H[?12l[?25h[?25l[24;66H1  [10;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H9,2-9[9;13H[?12l[?25h[?25l[24;65H1  [9;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H8,9-16[8;20H[?12l[?25h[?25l[8;19H[K[24;65H8-15[8;19H[?12l[?25h[?25l[8;18H[K[24;65H7-14[8;18H[?12l[?25h[?25l[24;65H6-13[8;17H[?12l[?25h[?25llon[8;16H[K[24;65H5-12[8;16H[?12l[?25h[?25l[8;15H[K[24;65H4-11[8;15H[?12l[?25h[?25l[8;14H[K[24;65H3-10[8;14H[?12l[?25h[?25l[8;13H[K[24;65H2-9 [8;13H[?12l[?25h[?25l[24;65H1  [8;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H7,2[7;6H[?12l[?25h[?25l[7;5H[K[24;65H1[7;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[6;13H[46m([4C)[m[24;63H6,15[6;19H[?12l[?25h[?25l[6;18H[K[6;13H([24;66H4[6;18H[?12l[?25h[?25lvoi[6;17H[K[24;66H3[6;17H[?12l[?25h[?25l[6;16H[K[24;66H2[6;16H[?12l[?25h[?25l[6;15H[K[24;66H1[6;15H[?12l[?25h[?25l[6;14H[K[24;66H0[6;14H[?12l[?25h[?25l[6;13H[K[24;65H9 [6;13H[?12l[?25h[?25l[6;12H[K[24;65H8[6;12H[?12l[?25h[?25l[6;11H[K[24;65H7[6;11H[?12l[?25h[?25l[6;10H[K[24;65H6[6;10H[?12l[?25h[?25l[6;9H[K[24;65H5[6;9H[?12l[?25h[?25l[24;65H4[6;8H[?12l[?25h[?25lin[6;7H[K[24;65H3[6;7H[?12l[?25h[?25l[6;6H[K[24;65H2[6;6H[?12l[?25h[?25l[6;5H[K[24;65H1[6;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H5[5;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H4,26[4;30H[?12l[?25h[?25l[4;14H[35m<[mspede/flames.h[4;29H[K[24;66H5[4;29H[?12l[?25h[?25l[4;28H[K[24;66H4[4;28H[?12l[?25h[?25l[4;27H[K[24;66H3[4;27H[?12l[?25h[?25l[4;26H[K[24;66H2[4;26H[?12l[?25h[?25l[4;25H[K[24;66H1[4;25H[?12l[?25h[?25l[4;24H[K[24;66H0[4;24H[?12l[?25h[?25l[4;23H[K[24;65H19[4;23H[?12l[?25h[?25l[4;22H[K[24;66H8[4;22H[?12l[?25h[?25l[4;21H[K[24;66H7[4;21H[?12l[?25h[?25l[4;20H[K[24;66H6[4;20H[?12l[?25h[?25l[4;19H[K[24;66H5[4;19H[?12l[?25h[?25l[4;18H[K[24;66H4[4;18H[?12l[?25h[?25l[4;17H[K[24;66H3[4;17H[?12l[?25h[?25l[4;16H[K[24;66H2[4;16H[?12l[?25h[?25l[4;15H[K[24;66H1[4;15H[?12l[?25h[?25l[4;5H#include [4;14H[K[24;66H0[4;14H[?12l[?25h[?25l[24;65H9 [4;13H[?12l[?25h[?25l[4;12H[K[24;65H8[4;12H[?12l[?25h[?25l[4;11H[K[24;65H7[4;11H[?12l[?25h[?25l[4;10H[K[24;65H6[4;10H[?12l[?25h[?25l[4;9H[K[24;65H5[4;9H[?12l[?25h[?25l[4;8H[K[24;65H4[4;8H[?12l[?25h[?25l[4;7H[K[24;65H3[4;7H[?12l[?25h[?25l[4;6H[K[24;65H2[4;6H[?12l[?25h[?25l[4;5H[K[24;65H1[4;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H3,25[3;29H[?12l[?25h[?25l[3;14H[35m<[mspede/stdio.h[3;28H[K[24;66H4[3;28H[?12l[?25h[?25l[3;27H[K[24;66H3[3;27H[?12l[?25h[?25l[3;26H[K[24;66H2[3;26H[?12l[?25h[?25l[3;25H[K[24;66H1[3;25H[?12l[?25h[?25l[3;24H[K[24;66H0[3;24H[?12l[?25h[?25l[3;23H[K[24;65H19[3;23H[?12l[?25h[?25l[3;22H[K[24;66H8[3;22H[?12l[?25h[?25l[3;21H[K[24;66H7[3;21H[?12l[?25h[?25l[3;20H[K[24;66H6[3;20H[?12l[?25h[?25l[3;19H[K[24;66H5[3;19H[?12l[?25h[?25l[3;18H[K[24;66H4[3;18H[?12l[?25h[?25l[3;17H[K[24;66H3[3;17H[?12l[?25h[?25l[3;16H[K[24;66H2[3;16H[?12l[?25h[?25l[3;15H[K[24;66H1[3;15H[?12l[?25h[?25l[3;5H#include [3;14H[K[24;66H0[3;14H[?12l[?25h[?25l[24;65H9 [3;13H[?12l[?25h[?25l[3;12H[K[24;65H8[3;12H[?12l[?25h[?25l[3;11H[K[24;65H7[3;11H[?12l[?25h[?25l[3;10H[K[24;65H6[3;10H[?12l[?25h[?25l[3;9H[K[24;65H5[3;9H[?12l[?25h[?25l[3;8H[K[24;65H4[3;8H[?12l[?25h[?25l[3;7H[K[24;65H3[3;7H[?12l[?25h[?25l[3;6H[K[24;65H2[3;6H[?12l[?25h[?25l[3;5H[K[24;65H1[3;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H2[2;5H[?12l[?25h[?25l[1m[34m~                                                                               [m[24;63H1,38[1;42H[?12l[?25h[?25l[1;41H[K[24;66H7[1;41H[?12l[?25h[?25l[1;40H[K[24;66H6[1;40H[?12l[?25h[?25l[1;39H[K[24;66H5[1;39H[?12l[?25h[?25l[1;38H[K[24;66H4[1;38H[?12l[?25h[?25l[1;37H[K[24;66H3[1;37H[?12l[?25h[?25l[1;36H[K[24;66H2[1;36H[?12l[?25h[?25l[1;35H[K[24;66H1[1;35H[?12l[?25h[?25l[1;34H[K[24;66H0[1;34H[?12l[?25h[?25l[1;33H[K[24;65H29[1;33H[?12l[?25h[?25l[1;32H[K[24;66H8[1;32H[?12l[?25h[?25l[1;31H[K[24;66H7[1;31H[?12l[?25h[?25l[1;30H[K[24;66H6[1;30H[?12l[?25h[?25l[1;29H[K[24;66H5[1;29H[?12l[?25h[?25l[1;28H[K[24;66H4[1;28H[?12l[?25h[?25l[1;27H[K[24;66H3[1;27H[?12l[?25h[?25l[1;26H[K[24;66H2[1;26H[?12l[?25h[?25l[1;25H[K[24;66H1[1;25H[?12l[?25h[?25l[1;24H[K[24;66H0[1;24H[?12l[?25h[?25l[1;23H[K[24;65H19[1;23H[?12l[?25h[?25l[1;22H[K[24;66H8[1;22H[?12l[?25h[?25l[1;21H[K[24;66H7[1;21H[?12l[?25h[?25l[1;20H[K[24;66H6[1;20H[?12l[?25h[?25l[1;19H[K[24;66H5[1;19H[?12l[?25h[?25l[1;18H[K[24;66H4[1;18H[?12l[?25h[?25l[1;17H[K[24;66H3[1;17H[?12l[?25h[?25l[1;16H[K[24;66H2[1;16H[?12l[?25h[?25l[1;15H[K[24;66H1[1;15H[?12l[?25h[?25l[1;14H[K[24;66H0[1;14H[?12l[?25h[?25l[1;13H[K[24;65H9 [1;13H[?12l[?25h[?25l[1;12H[K[24;65H8[1;12H[?12l[?25h[?25l[1;11H[K[24;65H7[1;11H[?12l[?25h[?25l[1;10H[K[24;65H6[1;10H[?12l[?25h[?25l[1;9H[K[24;65H5[1;9H[?12l[?25h[?25l[1;8H[K[24;65H4[1;8H[?12l[?25h[?25l[1;7H[K[24;65H3[1;7H[?12l[?25h[?25l/[1;6H[K[24;65H2[1;6H[?12l[?25h[?25l[1;5H[K[24;65H1[1;5H[?12l[?25h[?25l[34m/* sample.c - Sample Main for SPEDE*/[m
+[33m  2 [m[2;5H[K[3;1H[33m  3 [m[35m#include [m[31m<spede/stdio.h>[m[3;29H[K[4;1H[33m  4 [m[35m#include [m[31m<spede/flames.h>[m[4;30H[K[5;1H[33m  5 [m[5;5H[K[6;1H[33m  6 [m[32mint[m DisplayMsg([32mint[m j)[6;26H[K[7;1H[33m  7 [m{[7;6H[K[8;1H[33m  8 [m        printf([31m"[m[35m%d[m[31m Hello world [m[35m%d[m[31m [m[35m\n[m[31mECS"[m, j, [31m2[m*j);[8;55H[K[9;1H[33m  9 [m        cons_printf([31m"--> Hello world <--[m[35m\n[m[31mCPE/CSC"[m);[9;57H[K[10;1H[33m 10 [m        [33mreturn[m [31m0[m;[10;22H[K[11;1H[33m 11 [m}[11;6H[K[12;1H[33m 12 [m[12;5H[K[13;1H[33m 13 [m[32mint[m main([32mvoid[m)[13;19H[K[14;1H[33m 14 [m{[14;6H[K[15;1H[33m 15 [m        [32mlong[m i;[15;20H[K[16;1H[33m 16 [m        i = [31m111[m;[16;21H[K[17;1H[33m 17 [m        [33mfor[m(i; i<[31m116[m; i++)[17;31H[K[18;1H[33m 18 [m        {       [18;21H[K[19;1H[33m 19 [m                DisplayMsg(i);[19;35H[K[20;1H[33m 20 [m        }[20;14H[K[21;1H[33m 21 [m        [34m//return 0;[m[21;24H[K[22;1H[33m 22 [m        [34m//}[m[22;16H[K[23;1H[33m 23 [m        [34m//[m[23;15H[K[24;63H23,4-11[23;15H[?12l[?25h[?25l/[23;14H[K[24;66H3-10[23;14H[?12l[?25h[?25l[23;13H[K[24;66H2-9 [23;13H[?12l[?25h[?25l[24;64H2[22;13H[?12l[?25h[?25l[24;66H3-10[22;14H[?12l[?25h[?25l[14;5H[46m{[m[22;15H[34m[46m}[m[24;66H4-11[22;15H[?12l[?25h[?25l/}[46m }[m[22;15H[K[24;66H3-10[22;14H[?12l[?25h[?25l}[46m }[m[22;14H[K[24;66H2-9 [22;13H[?12l[?25h[?25l[22;5H}[46m [m[22;13H[K[22;5H[46m}[m[22;6H[K[24;66H1  [22;5H[?12l[?25h[?25l[14;5H{[22;5H}[24;64H1[21;5H[?12l[?25h[?25l[24;66H2-9[21;13H[?12l[?25h[?25l[24;66H3-10[21;14H[?12l[?25h[24;1H[K[21;13H[?25l[24;63H21,2-9[8CAll[21;13H[?12l[?25h[?25l[24;63H[K[24;1H:[?12l[?25hw[?25l[?12l[?25hq[?25l[?12l[?25h[?25l"sample.c" 23L, 323C written
+[?1l>[?12l[?25h[?1049l[georgeb@gacrux:21]> vi --cmd "set number" sample.c[22Gflash MyOS.dli[K[22Gmake[Kspede-mkmf -q
+(spede-mkmf $Revision: 1.2 $/1)
+
+Found your ./Makefile
+. done
+[georgeb@gacrux:22]> make
+i386-unknown-gnu-gcc -i386-unknown-gnu -Wall  -g  -c -o sample.o sample.c
+sample.c: In function `main':
+sample.c:17: warning: statement with no effect
+sample.c:22: warning: control reaches end of non-void function
+link386 -g  -o MyOS.dli sample.o
+(link-386.sh $Revision: 1.14 $ )
+Done linking "MyOS.dli" (with GDB enabled) at 1m.
+[georgeb@gacrux:23]> flash MyOS.dli
+unable to open config file, using defaults....
+
+>>>>>Welcome to the Flames Shell (FlaSh)  $Revision: 1.3 $ (SC/BJW)<<<<<<
+Type ? for help
+
+FLASH % d
+File type is 'ELF'
+Total blocks to download:  0x6b  (128 bytes each)
+
+?Now have attention of monitor...No of Blocks Downloaded : 0x2 No of Blocks Downloaded : 0x3 No of Blocks Downloaded : 0x4 No of Blocks Downloaded : 0x5 No of Blocks Downloaded : 0x6 No of Blocks Downloaded : 0x7 No of Blocks Downloaded : 0x8 No of Blocks Downloaded : 0x9 No of Blocks Downloaded : 0xa No of Blocks Downloaded : 0xb No of Blocks Downloaded : 0xc No of Blocks Downloaded : 0xd No of Blocks Downloaded : 0xe No of Blocks Downloaded : 0xf No of Blocks Downloaded : 0x10 No of Blocks Downloaded : 0x11 No of Blocks Downloaded : 0x12 No of Blocks Downloaded : 0x13 No of Blocks Downloaded : 0x14 No of Blocks Downloaded : 0x15 No of Blocks Downloaded : 0x16 No of Blocks Downloaded : 0x17 No of Blocks Downloaded : 0x18 No of Blocks Downloaded : 0x19 No of Blocks Downloaded : 0x1a No of Blocks Downloaded : 0x1b No of Blocks Downloaded : 0x1c No of Blocks Downloaded : 0x1d No of Blocks Downloaded : 0x1e No of Blocks Downloaded : 0x1f No of Blocks Downloaded : 0x20 No of Blocks Downloaded : 0x21 No of Blocks Downloaded : 0x22 No of Blocks Downloaded : 0x23 No of Blocks Downloaded : 0x24 No of Blocks Downloaded : 0x25 No of Blocks Downloaded : 0x26 No of Blocks Downloaded : 0x27 No of Blocks Downloaded : 0x28 No of Blocks Downloaded : 0x29 No of Blocks Downloaded : 0x2a No of Blocks Downloaded : 0x2b No of Blocks Downloaded : 0x2c No of Blocks Downloaded : 0x2d No of Blocks Downloaded : 0x2e No of Blocks Downloaded : 0x2f No of Blocks Downloaded : 0x30 No of Blocks Downloaded : 0x31 No of Blocks Downloaded : 0x32 No of Blocks Downloaded : 0x33 No of Blocks Downloaded : 0x34 No of Blocks Downloaded : 0x35 No of Blocks Downloaded : 0x36 No of Blocks Downloaded : 0x37 No of Blocks Downloaded : 0x38 No of Blocks Downloaded : 0x39 No of Blocks Downloaded : 0x3a No of Blocks Downloaded : 0x3b No of Blocks Downloaded : 0x3c No of Blocks Downloaded : 0x3d No of Blocks Downloaded : 0x3e No of Blocks Downloaded : 0x3f No of Blocks Downloaded : 0x40 No of Blocks Downloaded : 0x41 No of Blocks Downloaded : 0x42 No of Blocks Downloaded : 0x43 No of Blocks Downloaded : 0x44 No of Blocks Downloaded : 0x45 No of Blocks Downloaded : 0x46 No of Blocks Downloaded : 0x47 No of Blocks Downloaded : 0x48 No of Blocks Downloaded : 0x49 No of Blocks Downloaded : 0x4a No of Blocks Downloaded : 0x4b No of Blocks Downloaded : 0x4c No of Blocks Downloaded : 0x4d No of Blocks Downloaded : 0x4e No of Blocks Downloaded : 0x4f No of Blocks Downloaded : 0x50 No of Blocks Downloaded : 0x51 No of Blocks Downloaded : 0x52 No of Blocks Downloaded : 0x53 No of Blocks Downloaded : 0x54 No of Blocks Downloaded : 0x55 No of Blocks Downloaded : 0x56 No of Blocks Downloaded : 0x57 No of Blocks Downloaded : 0x58 No of Blocks Downloaded : 0x59 No of Blocks Downloaded : 0x5a No of Blocks Downloaded : 0x5b No of Blocks Downloaded : 0x5c No of Blocks Downloaded : 0x5d No of Blocks Downloaded : 0x5e No of Blocks Downloaded : 0x5f No of Blocks Downloaded : 0x60 No of Blocks Downloaded : 0x61 No of Blocks Downloaded : 0x62 No of Blocks Downloaded : 0x63 No of Blocks Downloaded : 0x64 No of Blocks Downloaded : 0x65 No of Blocks Downloaded : 0x66 No of Blocks Downloaded : 0x67 No of Blocks Downloaded : 0x68 No of Blocks Downloaded : 0x69 No of Blocks Downloaded : 0x6a No of Blocks Downloaded : 0x6b No of Blocks Downloaded : 0x6c Load Successful ; Code loaded at 0x0x101000 (1720 bytes/sec)
+
+FLASH % g
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux (7.2-64.el6_5.2)
+Copyright (C) 2010 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /gaia/class/student/georgeb/csc159/lab2/MyOS.dli...expanding to full symbols...done.
+0x00102581 in breakpoint ()
+Temporary breakpoint 1 at 0x1011ae: file sample.c, line 16.
+Really redefine built-in command "run"? (y or n) [answered Y; input not from terminal]
+
+Temporary breakpoint 1, main () at sample.c:16
+16		i = 111;
+GDB386> b DisplayMsg
+Breakpoint 2 at 0x101177: file sample.c, line 8.
+GDB386> c
+Continuing.
+
+Breakpoint 2, DisplayMsg (j=0x6f) at sample.c:8
+8		printf("%d Hello world %d \nECS", j, 2*j);
+GDB386> p i
+No symbol "i" in current context.
+GDB386> p j
+$1 = 0x6f
+GDB386> set var j=123
+GDB386> p j
+$2 = 0x7b
+GDB386> where
+#0  DisplayMsg (j=0x7b) at sample.c:8
+#1  0x001011c9 in main () at sample.c:19
+GDB386> c
+Continuing.
+123 Hello world 246 
+ECS
+Breakpoint 2, DisplayMsg (j=0x70) at sample.c:8
+8		printf("%d Hello world %d \nECS", j, 2*j);
+GDB386> c
+Continuing.
+112 Hello world 224 
+ECS
+Breakpoint 2, DisplayMsg (j=0x71) at sample.c:8
+8		printf("%d Hello world %d \nECS", j, 2*j);
+GDB386> c
+Continuing.
+113 Hello world 226 
+ECS
+Breakpoint 2, DisplayMsg (j=0x72) at sample.c:8
+8		printf("%d Hello world %d \nECS", j, 2*j);
+GDB386> c
+Continuing.
+114 Hello world 228 
+ECS
+Breakpoint 2, DisplayMsg (j=0x73) at sample.c:8
+8		printf("%d Hello world %d \nECS", j, 2*j);
+GDB386> c
+Continuing.
+115 Hello world 230 
+ECS
+Program exited normally.
+GDB386> q
+I m in gdbMyOS.dli debug file
+FLASH % d
+File type is 'ELF'
+Total blocks to download:  0x6b  (128 bytes each)
+
+?Now have attention of monitor...No of Blocks Downloaded : 0x2 No of Blocks Downloaded : 0x3 No of Blocks Downloaded : 0x4 No of Blocks Downloaded : 0x5 No of Blocks Downloaded : 0x6 No of Blocks Downloaded : 0x7 No of Blocks Downloaded : 0x8 No of Blocks Downloaded : 0x9 No of Blocks Downloaded : 0xa No of Blocks Downloaded : 0xb No of Blocks Downloaded : 0xc No of Blocks Downloaded : 0xd No of Blocks Downloaded : 0xe No of Blocks Downloaded : 0xf No of Blocks Downloaded : 0x10 No of Blocks Downloaded : 0x11 No of Blocks Downloaded : 0x12 No of Blocks Downloaded : 0x13 No of Blocks Downloaded : 0x14 No of Blocks Downloaded : 0x15 No of Blocks Downloaded : 0x16 No of Blocks Downloaded : 0x17 No of Blocks Downloaded : 0x18 No of Blocks Downloaded : 0x19 No of Blocks Downloaded : 0x1a No of Blocks Downloaded : 0x1b No of Blocks Downloaded : 0x1c No of Blocks Downloaded : 0x1d No of Blocks Downloaded : 0x1e No of Blocks Downloaded : 0x1f No of Blocks Downloaded : 0x20 No of Blocks Downloaded : 0x21 No of Blocks Downloaded : 0x22 No of Blocks Downloaded : 0x23 No of Blocks Downloaded : 0x24 No of Blocks Downloaded : 0x25 No of Blocks Downloaded : 0x26 No of Blocks Downloaded : 0x27 No of Blocks Downloaded : 0x28 No of Blocks Downloaded : 0x29 No of Blocks Downloaded : 0x2a No of Blocks Downloaded : 0x2b No of Blocks Downloaded : 0x2c No of Blocks Downloaded : 0x2d No of Blocks Downloaded : 0x2e No of Blocks Downloaded : 0x2f No of Blocks Downloaded : 0x30 No of Blocks Downloaded : 0x31 No of Blocks Downloaded : 0x32 No of Blocks Downloaded : 0x33 No of Blocks Downloaded : 0x34 No of Blocks Downloaded : 0x35 No of Blocks Downloaded : 0x36 No of Blocks Downloaded : 0x37 No of Blocks Downloaded : 0x38 No of Blocks Downloaded : 0x39 No of Blocks Downloaded : 0x3a No of Blocks Downloaded : 0x3b No of Blocks Downloaded : 0x3c No of Blocks Downloaded : 0x3d No of Blocks Downloaded : 0x3e No of Blocks Downloaded : 0x3f No of Blocks Downloaded : 0x40 No of Blocks Downloaded : 0x41 No of Blocks Downloaded : 0x42 No of Blocks Downloaded : 0x43 No of Blocks Downloaded : 0x44 No of Blocks Downloaded : 0x45 No of Blocks Downloaded : 0x46 No of Blocks Downloaded : 0x47 No of Blocks Downloaded : 0x48 No of Blocks Downloaded : 0x49 No of Blocks Downloaded : 0x4a No of Blocks Downloaded : 0x4b No of Blocks Downloaded : 0x4c No of Blocks Downloaded : 0x4d No of Blocks Downloaded : 0x4e No of Blocks Downloaded : 0x4f No of Blocks Downloaded : 0x50 No of Blocks Downloaded : 0x51 No of Blocks Downloaded : 0x52 No of Blocks Downloaded : 0x53 No of Blocks Downloaded : 0x54 No of Blocks Downloaded : 0x55 No of Blocks Downloaded : 0x56 No of Blocks Downloaded : 0x57 No of Blocks Downloaded : 0x58 No of Blocks Downloaded : 0x59 No of Blocks Downloaded : 0x5a No of Blocks Downloaded : 0x5b No of Blocks Downloaded : 0x5c No of Blocks Downloaded : 0x5d No of Blocks Downloaded : 0x5e No of Blocks Downloaded : 0x5f No of Blocks Downloaded : 0x60 No of Blocks Downloaded : 0x61 No of Blocks Downloaded : 0x62 No of Blocks Downloaded : 0x63 No of Blocks Downloaded : 0x64 No of Blocks Downloaded : 0x65 No of Blocks Downloaded : 0x66 No of Blocks Downloaded : 0x67 No of Blocks Downloaded : 0x68 No of Blocks Downloaded : 0x69 No of Blocks Downloaded : 0x6a No of Blocks Downloaded : 0x6b No of Blocks Downloaded : 0x6c Load Successful ; Code loaded at 0x0x101000 (1720 bytes/sec)
+
+FLASH % g
+[?1034hGNU gdb (GDB) Red Hat Enterprise Linux (7.2-64.el6_5.2)
+Copyright (C) 2010 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "x86_64-redhat-linux-gnu".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from /gaia/class/student/georgeb/csc159/lab2/MyOS.dli...expanding to full symbols...done.
+0x00102581 in breakpoint ()
+Temporary breakpoint 1 at 0x1011ae: file sample.c, line 16.
+Really redefine built-in command "run"? (y or n) [answered Y; input not from terminal]
+
+Temporary breakpoint 1, main () at sample.c:16
+16		i = 111;
+GDB386> break 17 if i==113
+Breakpoint 2 at 0x1011b5: file sample.c, line 17.
+GDB386> c
+Continuing.
+111 Hello world 222 
+ECS112 Hello world 224 
+ECS
+Breakpoint 2, main () at sample.c:17
+17		for(i; i<116; i++)
+GDB386> c
+Continuing.
+113 Hello world 226 
+ECS114 Hello world 228 
+ECS115 Hello world 230 
+ECS
+Program exited normally.
+GDB386> q
+I m in gdbMyOS.dli debug file
+FLASH % q
+
+[georgeb@gacrux:24]> exit
+exit
+
+Script done on Thu 25 Jan 2018 10:14:18 PM PST

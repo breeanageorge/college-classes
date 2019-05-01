@@ -1,0 +1,26 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  Oct 20 03:41 2016
+Time a b m sum ovf
+   0       xxxxxxxxx
+   1 xxxxxxxx x
+   1       xxxxxxx1x
+   2 xxxxxxx1 x
+   2       x0x0x0x01
+   3 x0x0x0x0 1
+   3       xxxxxxx0x
+   4 xxxxxxx0 x
+   4       xxxxxxx1x
+   5 xxxxxxx1 x
+   5       xxxxxxx0x
+   6 xxxxxxx0 x
+   6       xxxxxxx1x
+   7 xxxxxxx1 x
+   8 xxxxxxx1 x
+   8       x0x0x0x01
+$finish called from file "twoaddsub_tb.v", line 21.
+$finish at simulation time                   18
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 18
+CPU Time:      0.540 seconds;       Data structure size:   0.0Mb
+Thu Oct 20 03:41:12 2016

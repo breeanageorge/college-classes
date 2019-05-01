@@ -1,0 +1,33 @@
+﻿[georgeb@nova hw2]> g++ -O3 MTFindMin.c -lpthread -o MTFindMin
+[georgeb@nova hw2]> ./MTFindMin 100000000 2 50000001
+Sequential search completed in 25 ms. Min = 0
+Threaded FindMin with parent waiting for all children completed in 43 ms. Min = 0
+Threaded FindMin with parent continually checking on children completed in 43 ms. Min = 0
+Threaded FindMin with parent waiting on a semaphore completed in 0 ms. Min = 0
+[georgeb@nova hw2]> ./MTFindMin 100000000 4 75000001
+Sequential search completed in 38 ms. Min = 0
+Threaded FindMin with parent waiting for all children completed in 23 ms. Min = 0
+Threaded FindMin with parent continually checking on children completed in 22 ms. Min = 0
+Threaded FindMin with parent waiting on a semaphore completed in 1 ms. Min = 0
+[georgeb@nova hw2]> ./MTFindMin 100000000 8 88000001
+Sequential search completed in 44 ms. Min = 0
+Threaded FindMin with parent waiting for all children completed in 22 ms. Min = 0
+Threaded FindMin with parent continually checking on children completed in 23 ms. Min = 0
+Threaded FindMin with parent waiting on a semaphore completed in 1 ms. Min = 0
+[georgeb@nova hw2]> ./MTFindMin 100000000 2 -1
+Sequential search completed in 50 ms. Min = 1
+Threaded FindMin with parent waiting for all children completed in 44 ms. Min = 1
+Threaded FindMin with parent continually checking on children completed in 44 ms. Min = 1
+Threaded FindMin with parent waiting on a semaphore completed in 0 ms. Min = 1
+[georgeb@nova hw2]> ./MTFindMin 100000000 4 -1
+Sequential search completed in 50 ms. Min = 1
+Threaded FindMin with parent waiting for all children completed in 24 ms. Min = 1
+Threaded FindMin with parent continually checking on children completed in 32 ms. Min = 1
+Threaded FindMin with parent waiting on a semaphore completed in 1 ms. Min = 1
+[georgeb@nova hw2]> ./MTFindMin 100000000 8 -1
+Sequential search completed in 51 ms. Min = 1
+Threaded FindMin with parent waiting for all children completed in 24 ms. Min = 1
+Threaded FindMin with parent continually checking on children completed in 23 ms. Min = 1
+Threaded FindMin with parent waiting on a semaphore completed in 0 ms. Min = 1
+[georgeb@nova hw2]> exit
+Script done, file is results.txt

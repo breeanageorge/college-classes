@@ -1,0 +1,92 @@
+Script started on Sun 13 Dec 2015 10:17:00 AM PST
+Note: $DISPLAY is set to  for X windows.
+
+    *** Notice: This is an ECS IT resource, intended to be used for purposes
+        related to the educational activities of faculty, staff and students
+        of California State University Sacramento. Any other use is a
+        violation of University and College policy.
+
+
+[?1034h[georgeb@sp1 final]> pipe 1 2 3
+Semaphoe ID = 32899151
+10:17:06 Child 1 unlocking (PID=15543)  
+10:17:07 Child 2 unlocking (PID=15544)  
+10:17:08 Child 3 unlocking (PID=15545)  
+10:17:08 all obstacles removed, parent proceeds 
+sem id (32899151) successfully removed 
+[georgeb@sp1 final]> pipe 3 2 1
+Semaphoe ID = 32931919
+10:17:15 Child 3 unlocking (PID=15552)  
+10:17:16 Child 2 unlocking (PID=15551)  
+10:17:17 Child 1 unlocking (PID=15550)  
+10:17:17 all obstacles removed, parent proceeds 
+sem id (32931919) successfully removed 
+[georgeb@sp1 final]> pipe 0 0 0
+Semaphoe ID = 32964687
+10:17:22 Child 1 unlocking (PID=15554)  
+10:17:22 Child 2 unlocking (PID=15555)  
+10:17:22 Child 3 unlocking (PID=15556)  
+10:17:22 all obstacles removed, parent proceeds 
+sem id (32964687) successfully removed 
+[georgeb@sp1 final]> pipe 5 4 3 2 1
+Semaphoe ID = 32997455
+10:17:31 Child 5 unlocking (PID=15565)  
+10:17:32 Child 4 unlocking (PID=15564)  
+10:17:33 Child 3 unlocking (PID=15563)  
+10:17:34 Child 2 unlocking (PID=15562)  
+10:17:35 Child 1 unlocking (PID=15561)  
+10:17:35 all obstacles removed, parent proceeds 
+sem id (32997455) successfully removed 
+[georgeb@sp1 final]> pipe  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0  0 0 0 0 0 0 1 1 1 1 0 1 0 1 2 4 0
+Semaphoe ID = 33030223
+10:17:43 Child 1 unlocking (PID=15569)  
+10:17:43 Child 3 unlocking (PID=15571)  
+10:17:43 Child 5 unlocking (PID=15573)  
+10:17:43 Child 2 unlocking (PID=15570)  
+10:17:43 Child 4 unlocking (PID=15572)  
+10:17:43 Child 6 unlocking (PID=15574)  
+10:17:43 Child 7 unlocking (PID=15575)  
+10:17:43 Child 8 unlocking (PID=15576)  
+10:17:43 Child 9 unlocking (PID=15577)  
+10:17:43 Child 10 unlocking (PID=15578)  
+10:17:43 Child 11 unlocking (PID=15579)  
+10:17:43 Child 12 unlocking (PID=15580)  
+10:17:43 Child 13 unlocking (PID=15581)  
+10:17:43 Child 14 unlocking (PID=15582)  
+10:17:43 Child 15 unlocking (PID=15583)  
+10:17:43 Child 17 unlocking (PID=15585)  
+10:17:43 Child 16 unlocking (PID=15584)  
+10:17:43 Child 18 unlocking (PID=15586)  
+10:17:43 Child 20 unlocking (PID=15588)  
+10:17:43 Child 21 unlocking (PID=15589)  
+10:17:43 Child 19 unlocking (PID=15587)  
+10:17:43 Child 22 unlocking (PID=15590)  
+10:17:43 Child 23 unlocking (PID=15591)  
+10:17:43 Child 24 unlocking (PID=15592)  
+10:17:43 Child 25 unlocking (PID=15593)  
+10:17:43 Child 28 unlocking (PID=15596)  
+10:17:43 Child 27 unlocking (PID=15595)  
+10:17:43 Child 29 unlocking (PID=15597)  
+10:17:43 Child 26 unlocking (PID=15594)  
+10:17:43 Child 30 unlocking (PID=15598)  
+10:17:43 Child 31 unlocking (PID=15599)  
+10:17:43 Child 33 unlocking (PID=15601)  
+10:17:43 Child 34 unlocking (PID=15602)  
+10:17:43 Child 32 unlocking (PID=15600)  
+10:17:43 Child 39 unlocking (PID=15607)  
+10:17:43 Child 41 unlocking (PID=15609)  
+10:17:43 Child 45 unlocking (PID=15613)  
+10:17:44 Child 36 unlocking (PID=15604)  
+10:17:44 Child 37 unlocking (PID=15605)  
+10:17:44 Child 38 unlocking (PID=15606)  
+10:17:44 Child 35 unlocking (PID=15603)  
+10:17:44 Child 40 unlocking (PID=15608)  
+10:17:44 Child 42 unlocking (PID=15610)  
+10:17:45 Child 43 unlocking (PID=15611)  
+10:17:47 Child 44 unlocking (PID=15612)  
+10:17:47 all obstacles removed, parent proceeds 
+sem id (33030223) successfully removed 
+[georgeb@sp1 final]> exit
+exit
+
+Script done on Sun 13 Dec 2015 10:17:54 AM PST

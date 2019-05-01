@@ -1,0 +1,27 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  Oct 19 15:49 2016
+Time y ynot
+   0       xxxxxxxx
+   1 xxxxxxxx
+   1       xxxxxxx1
+   2 xxxxxxx1
+   2       xxxxxxx0
+   3 xxxxxxx0
+   3       xxxxxxx1
+   4 xxxxxxx1
+   4       xxxxxxx0
+   5 xxxxxxx0
+   5       xxxxxxx1
+   6 xxxxxxx1
+   6       xxxxxxx0
+   7 xxxxxxx0
+   7       xxxxxxx1
+   8 xxxxxxx1
+   8       xxxxxxx0
+$finish called from file "inverter_tb.v", line 18.
+$finish at simulation time                   18
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 18
+CPU Time:      0.530 seconds;       Data structure size:   0.0Mb
+Wed Oct 19 15:49:29 2016

@@ -1,0 +1,9 @@
+Size: 3997		Blocks: 8	I/O block: 524288 regular file
+Device containing i-node: major=0   minor=26
+I-node number:            26519812
+Access: (0600/rw-------)
+Number of (hard) links:   1
+Ownership:                UID=5889   GID=4502
+Last file access:         Wed Sep 23 16:11:31 2015
+Last file modification:   Wed Sep 23 17:51:31 2015
+Last status change:       Wed Sep 23 17:51:31 2015

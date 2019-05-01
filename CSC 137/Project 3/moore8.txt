@@ -1,0 +1,29 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  Nov 27 20:13 2016
+   0:		z = 0
+  10: x = 1
+  20: x = 0
+  30: x = 0
+  40: x = 1
+  45:		z = 1
+  50: x = 0
+  55:		z = 0
+  60: x = 0
+  70: x = 1
+  75:		z = 1
+  80: x = 1
+  85:		z = 0
+  90: x = 0
+ 100: x = 0
+ 110: x = 1
+ 115:		z = 1
+ 120: x = 0
+ 125:		z = 0
+ 130: x = 0
+$finish called from file "moore_tb.v", line 32.
+$finish at simulation time                  140
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 140
+CPU Time:      0.240 seconds;       Data structure size:   0.0Mb
+Sun Nov 27 20:13:49 2016

@@ -1,0 +1,47 @@
+#lab1.s
+#Breeana George
+
+.data				
+hw:			
+	.ascii "Hello World\n"
+
+hwlength:
+	.long 13
+
+name:
+	"My name is Breeana George\n"
+
+namelength:
+	.long 25
+
+quote:
+	"All ur base r belong to us\n"
+
+quotelength:
+	.long 27
+
+.text
+.global _start
+
+_start:
+	mov $4, %eax
+	mov $1, %ebx
+	mov $hw, %ecx
+	mov hwlength, %edx
+	int $0x80
+
+	mov $4, %eax
+	mov $1, %ebx
+	mov $name, %ecx
+	mov namelength, %edx
+
+	mov $4, %eax
+	mov $1, 
+
+
+
+
+
+	
+	mov $1, %eax	#End the program
+	int $0x80	#call Linux
